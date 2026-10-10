@@ -5,81 +5,98 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>CatPaw — AI Suite for Work & Building</title>
   <meta name="description" content="CatPaw by Meituan: cloud AI workspace, Claw multi-agent, IDE, NoCode, and Managed Agents. One prompt. Real results." />
+  <meta name="theme-color" content="#f7fbf8" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="nav">
-    <a class="brand" href="#top" aria-label="CatPaw home">
-      <span class="paw" aria-hidden="true"></span>
-      <span>CatPaw</span>
-    </a>
-    <nav class="nav-links">
-      <a href="#suite">Suite</a>
-      <a href="#features">Features</a>
-      <a href="#products">Products</a>
-      <a href="https://catpaw.com" target="_blank" rel="noopener">Docs</a>
-    </nav>
-    <a class="btn btn-sm" href="https://catpaw.com" target="_blank" rel="noopener">Get started</a>
+    <div class="nav-inner">
+      <a class="brand" href="#top" aria-label="CatPaw home">
+        <span class="paw" aria-hidden="true"></span>
+        <span>CatPaw</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#suite">Suite</a>
+        <a href="#features">Features</a>
+        <a href="#products">Products</a>
+        <a href="https://catpaw.com" target="_blank" rel="noopener">Docs</a>
+      </nav>
+      <a class="btn btn-sm" href="https://catpaw.com" target="_blank" rel="noopener">Get started</a>
+    </div>
   </header>
 
   <main id="top">
     <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">Meituan · Global</p>
-        <h1>One prompt.<br /><span class="accent">Real results.</span></h1>
-        <p class="lede">
-          CatPaw is an AI <strong>suite</strong> for work and building — cloud-native agents that keep running across desktop, mobile, and the cloud.
-        </p>
-        <div class="hero-cta">
-          <a class="btn" href="https://catpaw.com" target="_blank" rel="noopener">Open CatPaw</a>
-          <a class="btn btn-ghost" href="#suite">Explore the suite</a>
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Meituan · Global</p>
+          <h1>One prompt.<br /><span class="accent">Real results.</span></h1>
+          <p class="lede">
+            CatPaw is an AI <strong>suite</strong> for work and building — cloud-native agents that keep running across desktop, mobile, and the cloud.
+          </p>
+          <div class="hero-cta">
+            <a class="btn" href="https://catpaw.com" target="_blank" rel="noopener">Open CatPaw</a>
+            <a class="btn btn-ghost" href="#suite">Explore the suite</a>
+          </div>
+          <p class="fine">First login: 1000 Credits · LongCat 2.0 free for a limited time</p>
         </div>
-        <p class="fine">First login: 1000 Credits · LongCat 2.0 free for a limited time</p>
-      </div>
-      <div class="hero-visual">
-        <img src="assets/hero.jpg" alt="CatPaw AI workspace hero" width="960" height="540" />
+        <div class="hero-visual">
+          <img src="assets/hero.jpg" alt="CatPaw mascot beside the line One prompt. Real results." width="1280" height="720" />
+        </div>
       </div>
     </section>
 
     <section id="suite" class="section">
       <div class="section-head">
+        <p class="kicker">Suite</p>
         <h2>A suite, not a single app</h2>
         <p>Five products on one Managed Agents foundation — pick the surface that matches the job.</p>
       </div>
       <div class="suite-grid" id="products">
         <article class="card">
-          <img class="card-img" src="assets/product-workspace.jpg" alt="CatPaw Workspace" />
-          <h3>CatPaw Workspace</h3>
-          <p>AI expert workspace across desktop, mobile, and cloud. Autonomous execution with files, terminal, and browser — 24/7 when you need it.</p>
+          <img class="card-img" src="assets/product-workspace.jpg" alt="CatPaw Workspace" width="1280" height="720" />
+          <div class="card-body">
+            <h3>CatPaw Workspace</h3>
+            <p>AI expert workspace across desktop, mobile, and cloud. Autonomous execution with files, terminal, and browser — 24/7 when you need it.</p>
+          </div>
         </article>
         <article class="card">
-          <img class="card-img" src="assets/product-claw.jpg" alt="CatPaw Claw Agent" />
-          <h3>Claw Agent</h3>
-          <p>Cloud-resident multi-agent collaboration. Hand off long jobs, keep context across channels, and stay online without your laptop.</p>
+          <img class="card-img" src="assets/product-claw.jpg" alt="CatPaw Claw Agent" width="1280" height="720" />
+          <div class="card-body">
+            <h3>Claw Agent</h3>
+            <p>Cloud-resident multi-agent collaboration. Hand off long jobs, keep context across channels, and stay online without your laptop.</p>
+          </div>
         </article>
         <article class="card">
-          <img class="card-img" src="assets/product-ide.jpg" alt="CatPaw IDE" />
-          <h3>CatPaw IDE</h3>
-          <p>Agentic coding for engineers — completions, plan + agent modes, subagents, in-IDE preview, and PR review.</p>
+          <img class="card-img" src="assets/product-ide.jpg" alt="CatPaw IDE" width="1280" height="720" />
+          <div class="card-body">
+            <h3>CatPaw IDE</h3>
+            <p>Agentic coding for engineers — completions, plan + agent modes, subagents, in-IDE preview, and PR review.</p>
+          </div>
         </article>
         <article class="card">
-          <img class="card-img" src="assets/product-nocode.jpg" alt="CatPaw NoCode" />
-          <h3>CatPaw NoCode</h3>
-          <p>Ship web apps from conversation. Generate, deploy, and automate delivery without starting from a blank repo.</p>
+          <img class="card-img" src="assets/product-nocode.jpg" alt="CatPaw NoCode" width="1280" height="720" />
+          <div class="card-body">
+            <h3>CatPaw NoCode</h3>
+            <p>Ship web apps from conversation. Generate, deploy, and automate delivery without starting from a blank repo.</p>
+          </div>
         </article>
         <article class="card card-wide">
-          <img class="card-img" src="assets/product-ma.jpg" alt="CatPaw Managed Agents" />
-          <h3>Managed Agents</h3>
-          <p>The shared agent platform under the suite: sandboxed execution, memory, MCP + Skills, multi-agent coordination, and Console to configure, debug, and ship agents at scale.</p>
+          <img class="card-img" src="assets/product-managed-agents.jpg" alt="CatPaw Managed Agents" width="1280" height="720" />
+          <div class="card-body">
+            <h3>Managed Agents</h3>
+            <p>The shared agent platform under the suite: sandboxed execution, memory, MCP + Skills, multi-agent coordination, and Console to configure, debug, and ship agents at scale.</p>
+          </div>
         </article>
       </div>
     </section>
 
     <section id="features" class="section features">
       <div class="section-head">
+        <p class="kicker">Features</p>
         <h2>Built for durable agent work</h2>
         <p>Designed so tasks don’t die when the lid closes.</p>
       </div>
@@ -88,27 +105,32 @@
           <h3>Always-on cloud execution</h3>
           <p>Work continues in the cloud when your device is offline. Jump back in from desktop or mobile without losing the thread.</p>
         </div>
-        <img src="assets/cross-device.jpg" alt="CatPaw across desktop, mobile, and cloud" />
+        <figure class="feature-media">
+          <img src="assets/cross-device.jpg" alt="CatPaw across desktop, mobile, and cloud" width="1280" height="720" />
+        </figure>
       </div>
       <div class="feature-row reverse">
         <div class="feature-text">
           <h3>Multi-agent collaboration</h3>
           <p>Specialist agents research, write, review, and hand off — with you in the loop for judgment calls.</p>
         </div>
-        <img src="assets/multi-agent.jpg" alt="CatPaw multi-agent collaboration" />
+        <figure class="feature-media">
+          <img src="assets/multi-agent.jpg" alt="CatPaw multi-agent collaboration" width="1280" height="720" />
+        </figure>
       </div>
       <div class="feature-row">
         <div class="feature-text">
           <h3>Record into a skill</h3>
           <p>Demonstrate a path once. CatPaw can turn it into a reusable skill and run it again on demand or on a schedule.</p>
         </div>
-        <img src="assets/launch.jpg" alt="CatPaw launch visual" />
+        <figure class="feature-media">
+          <img src="assets/launch.jpg" alt="CatPaw launch visual" width="1280" height="720" />
+        </figure>
       </div>
     </section>
 
     <section class="cta-band">
       <div class="cta-inner">
-        <img class="cta-mark" src="assets/square-launch.jpg" alt="" width="120" height="120" />
         <div>
           <h2>Start with one prompt</h2>
           <p>Open the suite at <a href="https://catpaw.com" target="_blank" rel="noopener">catpaw.com</a> — workspace, agents, IDE, NoCode, and Managed Agents in one family.</p>
@@ -119,15 +141,17 @@
   </main>
 
   <footer class="footer">
-    <div class="footer-brand">
-      <span class="paw" aria-hidden="true"></span>
-      <span>CatPaw</span>
-    </div>
-    <p>© 2026 CatPaw · Meituan. Overseas product name: CatPaw (suite).</p>
-    <div class="footer-links">
-      <a href="https://catpaw.com" target="_blank" rel="noopener">Website</a>
-      <a href="https://catpaw.com" target="_blank" rel="noopener">Pricing</a>
-      <a href="https://catpaw.com" target="_blank" rel="noopener">Community</a>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="paw" aria-hidden="true"></span>
+        <span>CatPaw</span>
+      </div>
+      <p>© 2026 CatPaw · Meituan. Overseas product name: CatPaw (suite).</p>
+      <div class="footer-links">
+        <a href="https://catpaw.com" target="_blank" rel="noopener">Website</a>
+        <a href="https://catpaw.com" target="_blank" rel="noopener">Pricing</a>
+        <a href="https://catpaw.com" target="_blank" rel="noopener">Community</a>
+      </div>
     </div>
   </footer>
 </body>
